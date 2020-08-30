@@ -200,6 +200,7 @@ def main():
                 else:
                     if ascordesc=="asc":
                         ranking=createRankingMovies(listamovies,quantity,True,False)
+                        print(ranking["First"])
                     else:
                         ranking=createRankingMovies(listamovies,quantity,False,False)
                 for each in ranking:
